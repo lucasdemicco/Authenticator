@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ic-api-authenticator.props" />
+</Project>

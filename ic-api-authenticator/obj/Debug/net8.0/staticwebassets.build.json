@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BrUjTfZoFwlUy5pJE86OhCwLsgCWSRfJu8gWJibMalA=",
+  "Source": "ic-api-authenticator",
+  "BasePath": "_content/ic-api-authenticator",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
