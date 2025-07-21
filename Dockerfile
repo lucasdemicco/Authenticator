@@ -7,13 +7,13 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 
-COPY ["api-authenticator.csproj", "api-authenticator/"]
+COPY ["api-authenticator/api-authenticator.csproj", "api-authenticator/"]
 COPY ["Services/Services.csproj", "Service/"]
 COPY ["Domain/Domain.csproj", "Domain/"]
 COPY ["Infrastructure/Infrastructure.csproj", "Infra/"]
 COPY ["Infrastructure.IOC/Infrastructure.IOC.csproj", "IOC/"]
 
-RUN dotnet restore "api-authenticator/api-authenticator.csproj" # Adjust this if CamilaChavesImoveis.csproj is the main one
+RUN dotnet restore "CamilaChavesImoveis/CamilaChavesImoveis.csproj"
 
 COPY . .
 
