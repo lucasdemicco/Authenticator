@@ -1,0 +1,45 @@
+# Arquivos de Build
+[Bb]in/
+[Oo]bj/
+
+# Pacotes NuGet
+packages/
+*.nupkg
+*.suo
+*.user
+*.useros
+
+# Cache do Visual Studio
+.vs/
+
+# Arquivos de log e depuração
+*.log
+*.pdb
+*.ilk
+
+# Arquivos de Configuração do ASP.NET
+*.config
+web.config.user
+
+# Variáveis de ambiente
+.env
+
+# Arquivos de dependência do npm (se usar frontend no projeto)
+node_modules/
+
+# IDE e ferramentas de terceiros
+.idea/ # JetBrains IDEs (Rider, etc.)
+
+# Arquivos de sistema operacional
+.DS_Store # macOS
+Thumbs.db # Windows
+desktop.ini # Windows
+
+# Nível de pasta: Todos os arquivos .txt em qualquer pasta
+**/*.txt
+
+# Ou se quiser ignorar apenas arquivos .txt na raiz do projeto:
+# *.txt
+
+# Ignorar o próprio .gitignore (já ignorado por padrão pelo Git)
+.gitignore
