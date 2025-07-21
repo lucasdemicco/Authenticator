@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  api-authenticator:
-    image: ${DOCKER_REGISTRY-}apiauthenticator
-    build:
-      context: .
-      dockerfile: api-authenticator/Dockerfile
