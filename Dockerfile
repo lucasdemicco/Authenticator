@@ -10,10 +10,10 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["api-authenticator.csproj", "api-authenticator/"]
-COPY ["Domain.csproj", "Domain/"]
-COPY ["Infrastructure.IOC.csproj", "Infrastructure.IOC/"]
-COPY ["Infrastructure.csproj", "Infrastructure/"]
-COPY ["Services.csproj", "Services/"]
+COPY ["Domain/Domain.csproj", "Domain/"]
+COPY ["Infrastructure.IOC/Infrastructure.IOC.csproj", "Infrastructure.IOC/"]
+COPY ["Infrastructure/Infrastructure.csproj", "Infrastructure/"]
+COPY ["Services/Services.csproj", "Services/"]
 RUN dotnet restore "./api-authenticator.csproj"
 COPY . .
 WORKDIR "/src/api-authenticator"
