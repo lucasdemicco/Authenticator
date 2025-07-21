@@ -1,6 +1,7 @@
 # Arquivos de Build
 [Bb]in/
 [Oo]bj/
+[Dd]ebug/
 
 # Pacotes NuGet
 packages/
