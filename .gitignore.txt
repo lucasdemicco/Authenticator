@@ -1,69 +1,84 @@
-# Build
+# Arquivos de Build
 bin/
 obj/
-debug/
-Debug/
-
-# Rider
-.idea/
-
-# VS Code
-.vscode/
-
-# Visual Studio
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.exe
+*.pdb
+*.trx
+*.log
+publish/
+TestResults/
 .vs/
+.vspscc
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 *.userprefs
+*.vso
+*.vssscc
+*.tmp
+*.bak
+*.old
 
-# Logs
-*.log
-logs/
-*.trx
+# Cache e Arquivos Temporários
+**/*.cache
+**/*.temp
+**/*.tmp
+**/*.log
+**/*.bak
+**/*.old
+**/*Thumbs.db
+**/*.DS_Store
+*.swp
+*~
+.#*
 
-# Output
-publish/
-TestResults/
-*.coverage
-*.coveragexml
+# Visual Studio Code
+.vscode/
+.vs/
 
-# ASP.NET Core secrets
-secrets.json
-
-# Configuração de ambiente
-.env
-.env.*
+# Rider
+.idea/
 
 # NuGet
 *.nupkg
 *.snupkg
 .nuget/
+**/packages/
+**/project.assets.json
+**/project.nuget.cache
+*.csproj.nuget.*
 
-# Package manager (npm/yarn/pnpm)
+# ASP.NET Core Secrets
+**/secrets.json
+
+# Variáveis de Ambiente
+.env
+.env.*
+
+# Node.js / Frontend (se você tiver um frontend no mesmo repositório)
 node_modules/
 package-lock.json
 npm-debug.log
-yarn-debug.log
 yarn-error.log
+yarn-debug.log
 pnpm-lock.yaml
 
-# Migrations (se quiser ignorar)
-Migrations/
-
-# Arquivos temporários
-*.tmp
-*.bak
-*.old
-
-# Sistema operacional
-.DS_Store
-Thumbs.db
-
 # ReSharper
-_ReSharper/
-.[Rr]e[Ss]harper/
+_ReSharper*/
+*[Rr]e[Ss]harper/
 
-# Conteúdo de índice do VS (às vezes aparece)
-.vs/ic-api-authenticator/FileContentIndex/
+# Outros arquivos temporários de ferramentas
+*.sqlite3
+*.db-journal
+*.db-wal
+
+# Arquivos de banco de dados (se você tiver arquivos .mdf/.ldf locais)
+*.mdf
+*.ldf
+
+# Migrações (geralmente versionadas, mas incluídas se você *realmente* quiser ignorar)
+# Migrations/
