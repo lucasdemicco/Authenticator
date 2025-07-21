@@ -1,6 +1,5 @@
 ﻿using Domain.Dto;
 using Domain.Entity;
-using Domain.Entity.Base;
 using Domain.Models;
 using Infrastructure.Database;
 using Microsoft.EntityFrameworkCore;

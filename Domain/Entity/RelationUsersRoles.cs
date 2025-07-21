@@ -1,4 +1,4 @@
-﻿namespace Domain.Entity.Base;
+﻿namespace Domain.Entity;
 
 public class RelationUsersRoles
 {

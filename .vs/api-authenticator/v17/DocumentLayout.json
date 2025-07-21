@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\InteliClin\\Backend\\api-authenticator\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7657B0A8-A396-4636-AD8C-A6294C394B46}|api-authenticator\\api-authenticator.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\inteliclin\\backend\\api-authenticator\\api-authenticator\\controllers\\authenticatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7657B0A8-A396-4636-AD8C-A6294C394B46}|api-authenticator\\api-authenticator.csproj|solutionrelative:api-authenticator\\controllers\\authenticatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9280FB-5E3A-4BC1-B6C8-F5CEFF9CC4FE}|Infrastructure.IOC\\Infrastructure.IOC.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\inteliclin\\backend\\api-authenticator\\infrastructure.ioc\\startupextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9280FB-5E3A-4BC1-B6C8-F5CEFF9CC4FE}|Infrastructure.IOC\\Infrastructure.IOC.csproj|solutionrelative:infrastructure.ioc\\startupextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7657B0A8-A396-4636-AD8C-A6294C394B46}|api-authenticator\\api-authenticator.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\inteliclin\\backend\\api-authenticator\\api-authenticator\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7657B0A8-A396-4636-AD8C-A6294C394B46}|api-authenticator\\api-authenticator.csproj|solutionrelative:api-authenticator\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +31,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StartupExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\InteliClin\\Backend\\api-authenticator\\Infrastructure.IOC\\StartupExtensions.cs",
+              "RelativeDocumentMoniker": "Infrastructure.IOC\\StartupExtensions.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\InteliClin\\Backend\\api-authenticator\\Infrastructure.IOC\\StartupExtensions.cs",
+              "RelativeToolTip": "Infrastructure.IOC\\StartupExtensions.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAkwFgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T14:18:36.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\InteliClin\\Backend\\api-authenticator\\api-authenticator\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "api-authenticator\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\InteliClin\\Backend\\api-authenticator\\api-authenticator\\appsettings.Development.json",
+              "RelativeToolTip": "api-authenticator\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-21T14:18:07.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticatorController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\InteliClin\\Backend\\api-authenticator\\api-authenticator\\Controllers\\AuthenticatorController.cs",
+              "RelativeDocumentMoniker": "api-authenticator\\Controllers\\AuthenticatorController.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\InteliClin\\Backend\\api-authenticator\\api-authenticator\\Controllers\\AuthenticatorController.cs",
+              "RelativeToolTip": "api-authenticator\\Controllers\\AuthenticatorController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwCwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T14:14:41.347Z",
+              "EditorCaption": ""
             }
           ]
         }

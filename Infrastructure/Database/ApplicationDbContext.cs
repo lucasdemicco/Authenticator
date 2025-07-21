@@ -1,5 +1,4 @@
 ﻿using Domain.Entity;
-using Domain.Entity.Base;
 using Infrastructure.Mappings;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,7 +11,7 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
     public DbSet<RelationUsersRoles> RelationUsersRoles { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.HasDefaultSchema("InteliClin");
+        modelBuilder.HasDefaultSchema("MVP");
 
         base.OnModelCreating(modelBuilder);
 

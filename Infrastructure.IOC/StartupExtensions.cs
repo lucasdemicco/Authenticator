@@ -84,7 +84,7 @@ public static class StartupExtensions
             options.EnableAnnotations();
             options.SwaggerDoc("v1", new OpenApiInfo
             {
-                Title = "IC-API-Authenticator",
+                Title = "API-Authenticator",
                 Version = "v1"
             });
             // Adiciona a definição do esquema de segurança (Bearer)

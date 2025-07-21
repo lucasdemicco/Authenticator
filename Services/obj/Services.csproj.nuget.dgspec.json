@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\api-authenticator\\Services\\Services.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\api-authenticator\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\api-authenticator\\Domain\\obj\\",
-=======
-    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Services\\Services.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Domain\\Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Domain\\obj\\",
->>>>>>> b018b5b0939162f1b88ac164a067fa7c62e3e151
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -85,7 +71,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\api-authenticator\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -94,16 +79,6 @@
         "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\api-authenticator\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\api-authenticator\\Infrastructure\\obj\\",
-=======
-    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure\\Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure\\Infrastructure.csproj",
-        "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure\\obj\\",
->>>>>>> b018b5b0939162f1b88ac164a067fa7c62e3e151
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -121,13 +96,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\api-authenticator\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\api-authenticator\\Domain\\Domain.csproj"
-=======
-              "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Domain\\Domain.csproj"
->>>>>>> b018b5b0939162f1b88ac164a067fa7c62e3e151
               }
             }
           }
@@ -184,7 +154,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\api-authenticator\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -193,16 +162,6 @@
         "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\api-authenticator\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\api-authenticator\\Services\\obj\\",
-=======
-    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Services\\Services.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Services\\Services.csproj",
-        "projectName": "Services",
-        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Services\\obj\\",
->>>>>>> b018b5b0939162f1b88ac164a067fa7c62e3e151
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -220,19 +179,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\api-authenticator\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\api-authenticator\\Domain\\Domain.csproj"
               },
               "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\api-authenticator\\Infrastructure\\Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\api-authenticator\\Infrastructure\\Infrastructure.csproj"
-=======
-              "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Domain\\Domain.csproj"
-              },
-              "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure\\Infrastructure.csproj"
->>>>>>> b018b5b0939162f1b88ac164a067fa7c62e3e151
               }
             }
           }
