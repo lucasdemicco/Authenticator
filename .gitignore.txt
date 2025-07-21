@@ -1,152 +1,45 @@
-<<<<<<< HEAD
 # Arquivos de Build
-bin/
-obj/
-[Dd]ebug/
-[Rr]elease/
-*.dll
-*.exe
-*.pdb
-*.trx
-*.log
-publish/
-TestResults/
-.vs/
-.vspscc
-=======
-# Build
-bin/
-obj/
-debug/
-Debug/
+[Bb]in/
+[Oo]bj/
 
-# Rider
-.idea/
-
-# VS Code
-.vscode/
-
-# Visual Studio
-.vs/
->>>>>>> b018b5b0939162f1b88ac164a067fa7c62e3e151
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
-*.userprefs
-<<<<<<< HEAD
-*.vso
-*.vssscc
-*.tmp
-*.bak
-*.old
-
-# Cache e Arquivos Temporários
-**/*.cache
-**/*.temp
-**/*.tmp
-**/*.log
-**/*.bak
-**/*.old
-**/*Thumbs.db
-**/*.DS_Store
-*.swp
-*~
-.#*
-
-# Visual Studio Code
-.vscode/
-.vs/
-
-# Rider
-.idea/
-=======
-
-# Logs
-*.log
-logs/
-*.trx
-
-# Output
-publish/
-TestResults/
-*.coverage
-*.coveragexml
-
-# ASP.NET Core secrets
-secrets.json
-
-# Configuração de ambiente
-.env
-.env.*
->>>>>>> b018b5b0939162f1b88ac164a067fa7c62e3e151
-
-# NuGet
+# Pacotes NuGet
+packages/
 *.nupkg
-*.snupkg
-.nuget/
-<<<<<<< HEAD
-**/packages/
-**/project.assets.json
-**/project.nuget.cache
-*.csproj.nuget.*
+*.suo
+*.user
+*.useros
 
-# ASP.NET Core Secrets
-**/secrets.json
+# Cache do Visual Studio
+.vs/
 
-# Variáveis de Ambiente
+# Arquivos de log e depuração
+*.log
+*.pdb
+*.ilk
+
+# Arquivos de Configuração do ASP.NET
+*.config
+web.config.user
+
+# Variáveis de ambiente
 .env
-.env.*
 
-# Node.js / Frontend (se você tiver um frontend no mesmo repositório)
+# Arquivos de dependência do npm (se usar frontend no projeto)
 node_modules/
-package-lock.json
-npm-debug.log
-yarn-error.log
-yarn-debug.log
-pnpm-lock.yaml
 
-# ReSharper
-_ReSharper*/
-*[Rr]e[Ss]harper/
+# IDE e ferramentas de terceiros
+.idea/ # JetBrains IDEs (Rider, etc.)
 
-# Outros arquivos temporários de ferramentas
-*.sqlite3
-*.db-journal
-*.db-wal
+# Arquivos de sistema operacional
+.DS_Store # macOS
+Thumbs.db # Windows
+desktop.ini # Windows
 
-# Arquivos de banco de dados (se você tiver arquivos .mdf/.ldf locais)
-*.mdf
-*.ldf
+# Nível de pasta: Todos os arquivos .txt em qualquer pasta
+**/*.txt
 
-# Migrações (geralmente versionadas, mas incluídas se você *realmente* quiser ignorar)
-# Migrations/
-=======
+# Ou se quiser ignorar apenas arquivos .txt na raiz do projeto:
+# *.txt
 
-# Package manager (npm/yarn/pnpm)
-node_modules/
-package-lock.json
-npm-debug.log
-yarn-debug.log
-yarn-error.log
-pnpm-lock.yaml
-
-# Migrations (se quiser ignorar)
-Migrations/
-
-# Arquivos temporários
-*.tmp
-*.bak
-*.old
-
-# Sistema operacional
-.DS_Store
-Thumbs.db
-
-# ReSharper
-_ReSharper/
-.[Rr]e[Ss]harper/
-
-# Conteúdo de índice do VS (às vezes aparece)
-.vs/ic-api-authenticator/FileContentIndex/
->>>>>>> b018b5b0939162f1b88ac164a067fa7c62e3e151
+# Ignorar o próprio .gitignore (já ignorado por padrão pelo Git)
+.gitignore
