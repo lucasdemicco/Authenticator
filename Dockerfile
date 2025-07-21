@@ -18,7 +18,7 @@ WORKDIR /src
 # Assumindo que o Dockerfile está na raiz do seu diretório 'backend'
 # e os projetos são subdiretórios (ex: backend/CamilaChavesImoveis/, backend/Service/, etc.)
 COPY ["api-authenticator/api-authenticator.csproj", "api-authenticator/"]
-COPY ["Service/Service.csproj", "Service/"]
+COPY ["Services/Services.csproj", "Service/"]
 COPY ["Domain/Domain.csproj", "Domain/"]
 COPY ["Infrastructure/Infrastructure.csproj", "Infra/"]
 COPY ["Infrastructure.IOC/Infrastructure.IOC.csproj", "IOC/"]
