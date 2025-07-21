@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\api-authenticator\Services\bin\Debug\net8.0\Services.deps.json
 C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\api-authenticator\Services\bin\Debug\net8.0\Services.dll
 C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\api-authenticator\Services\bin\Debug\net8.0\Services.pdb
@@ -16,3 +17,22 @@ C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\api-authenticator\S
 C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\api-authenticator\Services\obj\Debug\net8.0\refint\Services.dll
 C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\api-authenticator\Services\obj\Debug\net8.0\Services.pdb
 C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\api-authenticator\Services\obj\Debug\net8.0\ref\Services.dll
+=======
+C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\ic-api-authenticator\ic-api-authenticator\Services\bin\Debug\net8.0\Services.deps.json
+C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\ic-api-authenticator\ic-api-authenticator\Services\bin\Debug\net8.0\Services.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\ic-api-authenticator\ic-api-authenticator\Services\bin\Debug\net8.0\Services.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\ic-api-authenticator\ic-api-authenticator\Services\bin\Debug\net8.0\Domain.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\ic-api-authenticator\ic-api-authenticator\Services\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\ic-api-authenticator\ic-api-authenticator\Services\bin\Debug\net8.0\Domain.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\ic-api-authenticator\ic-api-authenticator\Services\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\ic-api-authenticator\ic-api-authenticator\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\ic-api-authenticator\ic-api-authenticator\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\ic-api-authenticator\ic-api-authenticator\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\ic-api-authenticator\ic-api-authenticator\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\ic-api-authenticator\ic-api-authenticator\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\ic-api-authenticator\ic-api-authenticator\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\ic-api-authenticator\ic-api-authenticator\Services\obj\Debug\net8.0\Services.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\ic-api-authenticator\ic-api-authenticator\Services\obj\Debug\net8.0\refint\Services.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\ic-api-authenticator\ic-api-authenticator\Services\obj\Debug\net8.0\Services.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\InteliClin\Backend\ic-api-authenticator\ic-api-authenticator\Services\obj\Debug\net8.0\ref\Services.dll
+>>>>>>> b018b5b0939162f1b88ac164a067fa7c62e3e151

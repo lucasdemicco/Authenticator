@@ -1,0 +1,6 @@
+@ic_api_authenticator_HostAddress = http://localhost:5066
+
+GET {{ic_api_authenticator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

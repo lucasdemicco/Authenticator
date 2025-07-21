@@ -1,0 +1,398 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\ic-api-authenticator\\ic-api-authenticator.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\ic-api-authenticator\\ic-api-authenticator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\ic-api-authenticator\\ic-api-authenticator.csproj",
+        "projectName": "ic-api-authenticator",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\ic-api-authenticator\\ic-api-authenticator.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\ic-api-authenticator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure.IOC\\Infrastructure.IOC.csproj": {
+                "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure.IOC\\Infrastructure.IOC.csproj"
+              },
+              "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Services\\Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure.IOC\\Infrastructure.IOC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure.IOC\\Infrastructure.IOC.csproj",
+        "projectName": "Infrastructure.IOC",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure.IOC\\Infrastructure.IOC.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure.IOC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure\\Infrastructure.csproj"
+              },
+              "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Services\\Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[8.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

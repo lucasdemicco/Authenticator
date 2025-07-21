@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "mB1hiwE+bUQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\api-authenticator\\Infrastructure.IOC\\Infrastructure.IOC.csproj",
+=======
+  "dgSpecHash": "eK7HSzAd2nA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\InteliClin\\Backend\\ic-api-authenticator\\ic-api-authenticator\\Infrastructure.IOC\\Infrastructure.IOC.csproj",
+>>>>>>> b018b5b0939162f1b88ac164a067fa7c62e3e151
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
