@@ -1,0 +1,69 @@
+# Build
+bin/
+obj/
+debug/
+Debug/
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Logs
+*.log
+logs/
+*.trx
+
+# Output
+publish/
+TestResults/
+*.coverage
+*.coveragexml
+
+# ASP.NET Core secrets
+secrets.json
+
+# Configuração de ambiente
+.env
+.env.*
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Package manager (npm/yarn/pnpm)
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-lock.yaml
+
+# Migrations (se quiser ignorar)
+Migrations/
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.old
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# ReSharper
+_ReSharper/
+.[Rr]e[Ss]harper/
+
+# Conteúdo de índice do VS (às vezes aparece)
+.vs/ic-api-authenticator/FileContentIndex/
